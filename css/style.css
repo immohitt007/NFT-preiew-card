@@ -1,0 +1,72 @@
+body{
+  background-color: hsl(217, 54%, 11%)
+}
+.card {
+  margin-top: 8%;
+  width: 18rem;
+  left: 40%;
+  right: 40%;
+  margin-bottom: 8%;
+  background-color: hsl(216, 50%, 16%);
+  color: #fff;
+  border-radius: 3%;
+
+}
+
+.equilibrium-image{
+  margin: 3%;
+  border-radius: 3%;
+  opacity: 1;
+}
+.icon-view{
+  position: absolute;
+  left: 40%;
+  top: 20%;
+  opacity: 0;
+}
+
+.card:hover .equilibrium-image {
+  opacity: 0.3
+}
+.card:hover .icon-view{
+  opacity: 1;
+}
+h4{
+  font-weight: bold;
+}
+h4:hover{
+  color: hsl(178, 100%, 50%);
+}
+
+p{
+  font-size: 14px;
+}
+
+.row{
+  font-size: 14px;
+}
+.ETH{
+  color: hsl(178, 100%, 50%);
+}
+.days-left{
+  text-align: end;
+}
+
+hr{
+  color: hsl(215, 32%, 27%);
+}
+
+.card-footer{
+  font-size: 14px;
+}
+
+.avtar-image{
+  width: 20%;
+}
+
+span:hover{
+  color: hsl(178, 100%, 50%);
+}
+.attribution{
+  text-align: center;
+}
